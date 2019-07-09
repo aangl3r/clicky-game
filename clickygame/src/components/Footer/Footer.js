@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => (
   <footer className="footer">
     <div className="bottom">
-      Clicky Game!
+      Esme Clicky Game!
     </div>
   </footer>
 );

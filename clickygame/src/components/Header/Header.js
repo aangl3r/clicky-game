@@ -5,7 +5,7 @@ const Header = props => (
   <header className="header">
     <h1>Clicky Game!</h1>
     <h2>
-      Test your memory! Click each image only once!
+      Test your memory! Click each image of my dog Esme only once!
     </h2>
   </header>
 );
