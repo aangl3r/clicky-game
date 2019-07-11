@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./NavMessage.css";
 
-// NavMessage renders an li tag containing an message for the user
 
 class NavMessage extends Component {
   state = {
@@ -26,9 +25,9 @@ class NavMessage extends Component {
   renderMessage = () => {
     switch (this.state.message) {
       case "correct":
-        return "You guessed correctly!";
+        return "Correct Guess!";
       case "incorrect":
-        return "You guessed incorrectly!";
+        return "Wrong Guess!";
       default:
         return "Click an image to begin!";
     }
