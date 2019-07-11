@@ -7,6 +7,7 @@ import Footer from "../Footer";
 import data from "../../data.json";
 
 class Game extends Component {
+
   state = {
     data,
     score: 0,
@@ -46,7 +47,6 @@ class Game extends Component {
       score: 0
     });
   };
-
 
   handleItemClick = id => {
     let correctGuess = false;
