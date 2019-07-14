@@ -7,3 +7,5 @@ Users are presented with twelve images of my dog and must click each one without
 This app's components include a Footer, Header, Nav, NavMessage, and Game. The Game component includes the programming for the game, while the others contain JSX to render styling and information to the user.
 
 To play, visit the deployed application at the heroku link below, or clone this repository, run npm install, and npm start in a terminal.
+
+[Link to Heroku](https://afternoon-falls-87383.herokuapp.com/)
